@@ -85,7 +85,6 @@
 				</form>
 			</div>
 		</div><br>
-
 	</div>
 	<div class="container">
 		<table class="table table-bordered table-hover">
@@ -151,11 +150,11 @@
 
 				if ($inputCategory == "" && $inputKeyword == "") {
 					?>
-					<li class="page-item"><a class="page-link" href="hospital.php?page=<?php echo $LinkPrev; ?>">Previous</a></li>
+					<li class="page-item"><a class="page-link" href="rs-rujukan?page=<?php echo $LinkPrev; ?>">Previous</a></li>
 					<?php
 				} else {
 					?>
-					<li class="page-item"><a class="page-link" href="hospital.php?category=<?php echo $inputCategory; ?>&keyword=<?php echo $inputKeyword; ?>&page=<?php echo $LinkPrev; ?>">Previous</a></li>
+					<li class="page-item"><a class="page-link" href="rs-rujukan?category=<?php echo $inputCategory; ?>&keyword=<?php echo $inputKeyword; ?>&page=<?php echo $LinkPrev; ?>">Previous</a></li>
 					<?php
 				}
 			}
@@ -189,12 +188,12 @@
 				$linkActive = ($page == $i) ? ' class="link-active"' : '';
 				if ($inputCategory == "" && $inputKeyword == "") {
 					?>
-					<li class="page-item link-active" <?php echo $linkActive; ?>><a class="page-link" href="hospital.php?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+					<li class="page-item link-active" <?php echo $linkActive; ?>><a class="page-link" href="/rs-rujukan?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
 
 					<?php
 				} else {
 					?>
-					<li class="page-item link-active" <?php echo $linkActive; ?>><a class="page-link" href="hospital.php?category=<?php echo $inputCategory; ?>&keyword=<?php echo $inputKeyword; ?>&page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+					<li class="page-item link-active" <?php echo $linkActive; ?>><a class="page-link" href="rs-rujukan?category=<?php echo $inputCategory; ?>&keyword=<?php echo $inputKeyword; ?>&page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
 					<?php
 				}
 			}
@@ -210,11 +209,11 @@
 				$linkNext = ($page < $totalPage) ? $page + 1 : $totalPage;
 				if ($inputCategory == "" && $inputKeyword == "") {
 					?>
-					<li class="page-item"><a class="page-link" href="hospital.php?page=<?php echo $linkNext; ?>">Next</a></li>
+					<li class="page-item"><a class="page-link" href="rs-rujukan?page=<?php echo $linkNext; ?>">Next</a></li>
 					<?php
 				} else {
 					?>
-					<li class="page-item"><a class="page-link" href="hospital.php?category=<?php echo $inputCategory; ?>&keyword=<?php echo $inputKeyword; ?>&page=<?php echo $linkNext; ?>">Next</a></li>
+					<li class="page-item"><a class="page-link" href="rs-rujukan?category=<?php echo $inputCategory; ?>&keyword=<?php echo $inputKeyword; ?>&page=<?php echo $linkNext; ?>">Next</a></li>
 					<?php
 				}
 			}

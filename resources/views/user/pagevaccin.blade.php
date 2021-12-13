@@ -46,7 +46,7 @@
 		<?php
 		include "connection/connection.php";
 		$result = mysqli_query($connection, "SELECT * FROM `info_vaksin`");
-		foreach ($result as $row) {
+		foreach ($result as $row) { // looping
 			?>
 			<div class="card-responsive">
 				<?php echo '<img src="data:image;base64,' . base64_encode($row['ilustrasi']) . '" alt="infographic" class="img-fluid infographic mx-auto" >'; ?>
