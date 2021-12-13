@@ -118,11 +118,11 @@ $data = json_decode($url, true);
 		<h2 class="title">INFOGRAFIS</h2>
 		<div class="container-fixed stacked-cards stacked-cards-slide-2">
 			<ul>
-				<li><img src="image/edukasi_headline_1.png" alt="Covid infographic"></li>
-				<li><img src="image/edukasi_headline_2.png" alt="Covid infographic"></li>
-				<li><img src="image/edukasi_headline_3.png" alt="Covid infographic"></li>
-				<li><img src="image/edukasi_headline_4.png" alt="Covid infographic"></li>
-				<li><img src="image/edukasi_headline_5.png" alt="Covid infographic"></li>
+				<li><img src="image/infografis_headline_1.jpg" alt="Covid infographic"></li>
+				<li><img src="image/infografis_headline_2.jpg" alt="Covid infographic"></li>
+				<li><img src="image/infografis_headline_3.jpeg" alt="Covid infographic"></li>
+				<li><img src="image/infografis_headline_4.png" alt="Covid infographic"></li>
+				<li><img src="image/infografis_headline_5.png" alt="Covid infographic"></li>
 			</ul>
 		</div>
 		<a href="page/infographic.php" class="btn btn-all">Selengkapnya</a>

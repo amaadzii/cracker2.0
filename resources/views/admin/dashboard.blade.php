@@ -25,7 +25,7 @@
                     <i class="ti-menu ti-close"></i>
                 </a>
                 <div class="navbar-brand">
-                    <a href="index.html" class="logo">
+                    <a href="/admin/dashboard" class="logo">
                         <img src="../image/logo.png" class="img-fluid" style="width: 120px;" alt="homepage"/>
                     </a>
                 </div>
