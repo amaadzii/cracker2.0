@@ -7,7 +7,7 @@
     <title>Tambah Rumah Sakit | Admin Cracker 2.0</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/niceadmin-lite/" />
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="../../image/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="../../image/favicon.svg">
     <!-- Custom CSS -->
     <link href="../../assets/libs/chartist/dist/chartist.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -24,7 +24,7 @@
                 </a>
                 <div class="navbar-brand">
                     <a href="index.html" class="logo">
-                        <img src="images/logo.png" alt="homepage"/>
+                        <img src="../image/logo.png" class="img-fluid" style="width: 120px;" alt="homepage"/>
                     </a>
                 </div>
             </div>

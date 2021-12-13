@@ -6,7 +6,7 @@
   <title>Login | Admin Cracker 2.0</title>
   <link rel="canonical" href="https://www.wrappixel.com/templates/niceadmin-lite/">
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="image/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="image/favicon.svg"/>
   <!-- Custom CSS -->
   <link href="dist/css/style.min.css" rel="stylesheet">
 </head>
