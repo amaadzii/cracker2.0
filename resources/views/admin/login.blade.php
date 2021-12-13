@@ -27,12 +27,12 @@
               <form class="row g-3 needs-validation" action="/admin/dashboard">
                 <div class="col-12">
                   <label for="yourUsername" class="form-label">Username</label>
-                  <input type="text" name="username" class="form-control" id="yourUsername">
+                  <input type="text" name="username" class="form-control" id="yourUsername" required>
                   <div class="invalid-feedback">Please enter your username!</div>
                 </div>
                 <div class="col-12">
                   <label for="yourPassword" class="form-label">Password</label>
-                  <input type="password" name="passwword" class="form-control" id="yourPassword">
+                  <input type="password" name="passwword" class="form-control" id="yourPassword" required>
                   <div class="invalid-feedback">Please enter your password!</div>
                 </div>
                 <div class="col-12">

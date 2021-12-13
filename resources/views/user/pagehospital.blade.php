@@ -80,7 +80,7 @@
 					<div class="form-group">
 						<input type="text" class="form-control my-2" id="keyword" name="keyword" placeholder="Kata kunci.." required="" value="<?php if (isset($_GET['keyword']))  echo $_GET['keyword']; ?>">
 						<button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-						<a href="hospital.php" class="btn btn-danger"><i class="fa fa-redo" aria-hidden="true"></i></a>
+						<a href="/rs-rujukan" class="btn btn-danger"><i class="fa fa-redo" aria-hidden="true"></i></a>
 					</div>
 				</form>
 			</div>
