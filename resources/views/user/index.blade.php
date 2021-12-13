@@ -52,7 +52,7 @@ $data = json_decode($url, true);
 				<p>Perangkat lunak sistem informasi terpusat COVID-19 CRACKER ini merupakan perangkat lunak berbasis website untuk mempermudah masyarakat dalam mendapat informasi yang kredibel seputar COVID-19 yang ada di Indonesia.</p>
 			</div>
 			<div class="col-4">
-				<img src="image/cracker-about.png" class="illustration img-fluid">
+				<img src="image/cracker-about.svg" class="img-fluid">
 			</div>
 		</div>
 	</div>
