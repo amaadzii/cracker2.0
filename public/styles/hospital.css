@@ -1,0 +1,84 @@
+body {
+    font-family: 'Rubik';
+    background-image: linear-gradient(#4C7E62, #FFF);
+    height: 360px;
+    background-repeat: no-repeat;
+}
+
+.bg-green {
+    background-color: #4C7E62;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.content {
+    border-radius: 24px;
+    padding: 32px;
+    margin: 64px auto;
+}
+
+.title {
+    color: #222;
+    font-weight: bold;
+    padding: 24px 0;
+}
+
+.subtitle {
+    color: #EB4A17;
+    font-weight: bold;
+    padding: 24px 0;
+}
+
+#education {
+    background-color: #E7F6EB;
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+}
+
+.form-inline {
+    margin: 8px auto;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.btn-danger {
+    margin: 8px 0;
+    border-radius: 40px;
+}
+
+.btn-search {
+    background-color: #4C7E62;
+    color: #fff;
+    margin: 8px 8px;
+    border-radius: 40px;
+}
+
+.btn-search:hover {
+    background-color: #00031f;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.table {
+    margin-top: 24px;
+}
+
+.bg-thead {
+    background-color: #e7f6eb;
+}
+
+footer {
+    margin: auto;
+    padding: 16px;
+}
+
+.footer img {
+    width: 150px;
+    display: block;
+    margin: 24px auto;
+}

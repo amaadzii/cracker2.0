@@ -1,0 +1,124 @@
+body {
+    font-family: 'Rubik';
+    background-image: linear-gradient(#4C7E62, #FFF);
+    height: 560px;
+    background-repeat: no-repeat;
+}
+
+#about {
+    margin: 0 48px;
+}
+
+.bg-green {
+    background-color: #4C7E62;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+/* .active {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0 4px;
+    margin: 0 4px;
+} */
+
+.container-about {
+    margin: 64px auto;
+}
+
+.headline {
+    border-radius: 24px;
+    padding: 32px;
+    margin: 32px auto;
+}
+
+.title {
+    color: #222;
+    font-weight: bold;
+    padding: 24px 0;
+}
+
+.subtitle-red {
+    color: #EB4A17;
+    font-weight: bold;
+}
+
+.subtitle-black {
+    color: #222;
+    font-weight: bold;
+}
+
+.illustration {
+    width: 200px;
+}
+
+.btn-all {
+    margin-top: 16px;
+    background-image: linear-gradient(#292A2F, #5A5E6F);
+    color: #fff;
+    border-radius: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.modal-title, .modal-text {
+    color: #000;
+}
+
+.btn-all:hover {
+    background-image: linear-gradient(#111213, #44454b);
+    color: #fff;
+}
+
+.tracker {
+    margin-top: 32px;
+}
+
+.status {
+    margin-top: 12px;
+    padding-left: 16px;
+    padding-top: 8px;
+}
+
+.status h5, .statistic h5 {
+    font-weight: bold;
+}
+
+.container-statistic {
+    background-color: #E7F6EB;
+    border-radius: 24px;
+    height: 300px;
+    padding: 16px;
+}
+
+.statistic {
+    color: #EB4A17;
+    padding-left: 16px;
+}
+
+.maps {
+    background-color: #fff;
+    border-radius: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 24px;
+}
+
+.maps iframe {
+    border-radius: 20px 20px 0 0;
+}
+
+#hospital-list {
+    background-color: #E7F6EB;
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+}
+
+.footer img {
+    width: 150px;
+    display: block;
+    margin: 24px auto;
+}

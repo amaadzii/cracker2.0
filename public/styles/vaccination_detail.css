@@ -1,0 +1,58 @@
+body {
+    font-family: 'Rubik';
+	justify-content: center;
+	align-items: center;
+}
+
+.bg-blue {
+    background-color: #000850;
+}
+
+.btn-back {
+    margin: 24px;
+}
+
+i {
+    margin-right: 8px;
+}
+
+.title {
+    color: #fff;
+    font-weight: bolder;
+    margin-bottom: 16px;
+}
+
+.infographic-title {
+    margin: 16px 0;
+}
+
+.article {
+    margin: 48px;
+}
+
+.jumbotron {
+    background-color: #fff;
+    margin: 0;
+}
+
+.jumbotron-fluid {
+    padding-top: 24px;
+}
+
+.date {
+    font-size: small;
+    font-weight: 100;
+    color: #05149e;
+}
+
+.lead {
+    margin-top: 24px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #000850;
+    color: #fff;
+    margin-top: 24px;
+    padding-top: 16px;
+}

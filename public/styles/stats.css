@@ -1,0 +1,94 @@
+body {
+    font-family: 'Rubik';
+    background-image: linear-gradient(#4C7E62, #FFF);
+    height: 560px;
+    background-repeat: no-repeat;
+}
+
+.bg-green {
+    background-color: #4C7E62;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.content {
+    border-radius: 24px;
+    padding: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.container-card {
+    padding: 32px;
+    background-color: #F0EDED;
+    border-radius: 24px;
+}
+
+.title {
+    color: #222;
+    font-weight: bold;
+    padding: 24px 0;
+}
+
+.subtitle {
+    color: #EB4A17;
+    font-weight: bold;
+    padding: 24px 0;
+}
+
+.status {
+    margin-top: 16px;
+    color: #222;
+    font-weight: bold;
+    text-align: center;
+}
+
+.statistic {
+    color: #EB4A17;
+    font-weight: bold;
+    text-align: center;
+}
+
+.status h5, .statistic h5 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.illustration {
+    margin: 16px auto;
+    max-height: 180px;
+}
+
+.maps {
+    margin-top: 32px;
+}
+
+.maps iframe {
+    border-radius: 40px;
+}
+
+footer {
+    margin: auto;
+    padding: 16px;
+}
+
+.footer img {
+    width: 150px;
+    display: block;
+    margin: 24px auto;
+}
+
+a.login {
+    background-color: #101c85;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 8px;
+}
+
+a.login:hover {
+    background-color: #101a6d;
+}

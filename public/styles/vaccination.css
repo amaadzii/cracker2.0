@@ -1,0 +1,83 @@
+body {
+    font-family: 'Rubik';
+    background-image: linear-gradient(#4C7E62, #FFF);
+    height: 560px;
+    background-repeat: no-repeat;
+}
+
+.bg-green {
+    background-color: #4C7E62;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.content {
+    border-radius: 24px;
+    padding: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.title {
+    color: #222;
+    font-weight: bold;
+    padding: 24px 0;
+}
+
+.subtitle {
+    color: #EB4A17;
+    font-weight: bold;
+    padding: 24px 0;
+}
+
+.infographic {
+    border-radius: 40px 40px 0 0;
+}
+
+.infographic-title {
+    margin: 16px 0;
+    font-weight: medium;
+}
+
+.btn-expand {
+    margin: 10px;
+    color: #4C7E62;
+    font-size: 12pt;
+    font-weight: medium;
+    text-align: right;
+}
+
+.btn-all:hover {
+    background-image: linear-gradient(#111213, #44454b);
+    color: #fff;
+}
+
+.jumbotron {
+    background-color: #fff;
+    margin-bottom: 0;
+}
+
+.date {
+    font-size: small;
+    font-weight: 100;
+    color: #4C7E62;
+    margin-top: 16px;
+}
+
+.lead {
+    margin-top: 24px;
+    text-align: justify;
+}
+
+footer {
+    margin: auto;
+    padding: 16px;
+}
+
+.footer img {
+    width: 150px;
+    display: block;
+    margin: 24px auto;
+}

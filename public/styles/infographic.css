@@ -1,0 +1,65 @@
+body {
+    font-family: 'Rubik';
+    background-image: linear-gradient(#4C7E62, #FFF);
+    height: 360px;
+    background-repeat: no-repeat;
+}
+
+.bg-green {
+    background-color: #4C7E62;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.content {
+    border-radius: 24px;
+    padding: 32px;
+    margin: 64px auto;
+}
+
+.title {
+    color: #222;
+    font-weight: bold;
+    padding: 24px 0;
+    margin-left: 18px;
+}
+
+.btn-image, .btn-closemodal {
+    margin: 0;
+    padding: 0;
+}
+
+.infographic {
+    border-radius: 40px 40px 0 0;
+}
+
+.infographic-title {
+    margin: 16px 0;
+    padding: 0 16px;
+    font-weight: medium;
+}
+
+.infographic-date {
+    font-size: small;
+    font-weight: 100;
+    color: #4C7E62;
+    margin-top: 16px;
+}
+
+.lead {
+    margin-top: 24px;
+    text-align: justify;
+}
+
+footer {
+    margin: auto;
+    padding: 16px;
+}
+
+.footer img {
+    width: 150px;
+    display: block;
+    margin: 24px auto;
+}
